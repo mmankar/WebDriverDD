@@ -22,7 +22,7 @@ public void setUP()
 public void doLogin()
 {
 	driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
-	driver.findElement(By.id("login1")).sendKeys("nilmangesh");
+	driver.findElement(By.id("logi1")).sendKeys("nilmangesh");
 }
 @AfterMethod
 public void closeBrowser()
